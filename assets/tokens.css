@@ -1,0 +1,16 @@
+:root {
+  --lc-acid-lemon: #E8FF2B;
+  --lc-neon-cherry: #FF2E88;
+  --lc-lens-flash: #FFFF9C; /* result of screen(acid, cherry) — never hand-drawn */
+  --lc-stem-green: #7CFF4A; /* stem strokes only, never fills */
+  --lc-void: #0C0C10;       /* default ground */
+  --lc-surface: #15151B;    /* raised cards on void */
+  --lc-border: #26262E;
+  --lc-paper: #F4F2EA;      /* light contexts / body text on dark */
+  --lc-text-muted: #8B8B96;
+  --lc-font-display: 'Space Grotesk', sans-serif; /* 500/700 */
+  --lc-font-mono: 'JetBrains Mono', monospace;    /* 400/700 */
+  --lc-radius-tile: 22%;    /* app-icon tiles */
+  --lc-radius-card: 20px;
+  --lc-radius-control: 10px;
+}

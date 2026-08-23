@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title and page.url != "/" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon-180.png">
+<meta name="theme-color" content="#0C0C10">
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:image" content="{{ site.url }}/assets/og-image-1200x630.png">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="weave" aria-hidden="true"></div>
+  <div class="wrap">
+    <a class="lockup" href="/">
+      <img src="/assets/mark-primary-on-void.svg" alt="" width="48" height="48">
+      <span class="wordmark">LemonCherry<span class="apps">apps</span></span>
+    </a>
+  </div>
+</header>
+<main class="wrap">
+{{ content }}
+</main>
+<footer class="wrap site-footer">
+  <span class="label">LemonCherry Apps</span>
+  <nav><a href="/">Home</a> · <a href="/privacy/">Privacy</a></nav>
+</footer>
+</body>
+</html>
