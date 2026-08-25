@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Privacy Policy
-description: "Privacy policy for Sweep: Hidden Camera Scanner, by LemonCherry Apps."
+description: "Privacy policy for Sweep: Hidden Camera Detector, by LemonCherry Apps."
 permalink: /privacy/
 ---
 
-# Privacy Policy for Sweep: Hidden Camera Scanner
+# Privacy Policy for Sweep: Hidden Camera Detector
 **Last updated:** 23 August 2026
 
 ## Who we are
-Sweep: Hidden Camera Scanner ("the app") is published by LemonCherry Apps. Contact:
+Sweep: Hidden Camera Detector ("the app") is published by LemonCherry Apps. Contact:
 sweep.lemoncherry@gmail.com.
 
 ## The short version
