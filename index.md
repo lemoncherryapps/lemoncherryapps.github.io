@@ -15,7 +15,7 @@ description: Utilities to games. Mind-boggling by design.
 radios, with a coverage report that tells you what was checked, what was
 flagged and what this phone could not check.</p>
 <p><a class="btn" href="/privacy/">Privacy policy</a></p>
-<p class="muted">Support: <a href="mailto:sweep.lemoncherry@gmail.com">sweep.lemoncherry@gmail.com</a></p>
+<p class="muted">Support: <a href="mailto:support@lemoncherrylabs.com">support@lemoncherrylabs.com</a></p>
 </div>
 
 <div class="card">
@@ -24,5 +24,5 @@ flagged and what this phone could not check.</p>
 <p>A one-finger jungle runner: hold to hook a vine, release to fly. Swing as
 Momo the gibbon, chain catches for combos and unlock new simians.</p>
 <p><a class="btn" href="/hook-dash/privacy/">Privacy policy</a></p>
-<p class="muted">Support: <a href="mailto:dev.lemoncherry@gmail.com">dev.lemoncherry@gmail.com</a></p>
+<p class="muted">Support: <a href="mailto:support@lemoncherrylabs.com">support@lemoncherrylabs.com</a></p>
 </div>

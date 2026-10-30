@@ -6,11 +6,11 @@ permalink: /privacy/
 ---
 
 # Privacy Policy for Sweep: Hidden Camera Detector
-**Last updated:** 23 August 2026
+**Last updated:** 30 October 2026
 
 ## Who we are
 Sweep: Hidden Camera Detector ("the app") is published by LemonCherry Apps. Contact:
-sweep.lemoncherry@gmail.com.
+support@lemoncherrylabs.com.
 
 ## The short version
 The app runs its scans entirely on your device. We do not collect,
@@ -88,4 +88,4 @@ results, does not track you across other apps, and does not sell data.
 Material changes to this policy will be posted at this URL with an updated date.
 
 ## Contact
-sweep.lemoncherry@gmail.com
+support@lemoncherrylabs.com

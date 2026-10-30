@@ -6,11 +6,11 @@ permalink: /hook-dash/privacy/
 ---
 
 # Privacy Policy for Hook Dash
-**Last updated:** 29 October 2026
+**Last updated:** 30 October 2026
 
 ## Who we are
 Hook Dash ("the game") is a free Android game published by LemonCherry Apps.
-Contact: dev.lemoncherry@gmail.com.
+Contact: support@lemoncherrylabs.com.
 
 ## The short version
 The game has no accounts, no sign-in and no servers of ours. Your progress
@@ -69,4 +69,4 @@ Material changes to this policy will be posted at this URL with an updated
 date.
 
 ## Contact
-dev.lemoncherry@gmail.com
+support@lemoncherrylabs.com
