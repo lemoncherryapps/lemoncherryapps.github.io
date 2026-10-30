@@ -19,7 +19,7 @@ flagged and what this phone could not check.</p>
 </div>
 
 <div class="card">
-<span class="label">Android · Game</span>
+<span class="label">Android · Game · Coming soon</span>
 <h2>Hook Dash</h2>
 <p>A one-finger jungle runner: hold to hook a vine, release to fly. Swing as
 Momo the gibbon, chain catches for combos and unlock new simians.</p>
