@@ -6,7 +6,7 @@ description: Utilities to games. Mind-boggling by design.
 
 # Small, honest apps for Android.
 
-<p class="muted">Utilities to games. Mind-boggling by design. No accounts, no uploads.</p>
+<p class="muted">Utilities to games. Mind-boggling by design.</p>
 
 <div class="card">
 <span class="label">Android</span>
