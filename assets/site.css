@@ -32,3 +32,4 @@ code{font-family:var(--lc-font-mono);font-size:.9em;color:var(--lc-acid-lemon)}
 .btn{display:inline-block;font-family:var(--lc-font-mono);font-size:14px;padding:10px 16px;border-radius:var(--lc-radius-control);border:1px solid var(--lc-neon-cherry);color:var(--lc-neon-cherry)}
 .btn:hover{border-color:var(--lc-acid-lemon);color:var(--lc-acid-lemon);text-decoration:none}
 .site-footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid var(--lc-border);margin-top:64px;padding-top:20px;padding-bottom:40px;color:var(--lc-text-muted);font-family:var(--lc-font-mono);font-size:13px}
+.site-footer .legal{flex-basis:100%;margin:0}
