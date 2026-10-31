@@ -38,6 +38,7 @@ None of this identifies you, and none of it is sent to us. If Android backup is 
 - **Advertising ID** (`com.google.android.gms.permission.AD_ID`): added by the Google Mobile Ads SDK, so ads can use your device's advertising ID as described below.
 - **Basic phone state** (`READ_BASIC_PHONE_STATE`): added by the Google Mobile Ads SDK. The game itself reads no phone data, and this permission does not give access to calls, contacts or your phone number.
 - **Google Play billing** (`com.android.vending.BILLING`): to buy and restore the Remove Ads purchase through Google Play.
+- **Keep awake** (`WAKE_LOCK`) and **foreground service** (`FOREGROUND_SERVICE`): added by Google's background-task library (WorkManager), which the Google Mobile Ads SDK uses to send its reports reliably. The game itself runs no background service and does not keep your screen on when you are not playing.
 
 The game does not ask for your location, camera, microphone, contacts, photos, files or any other sensitive permission.
 
