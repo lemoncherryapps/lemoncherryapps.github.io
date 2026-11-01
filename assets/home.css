@@ -23,3 +23,85 @@ html{scroll-behavior:smooth;background:var(--lc-void)}*{box-sizing:border-box}bo
   .creative-workspace{width:100%;margin-inline:auto;overflow:visible}
   .desk-illustration{width:100%;height:auto;object-fit:contain}
 }
+
+/* User-approved Creative Desk: matching the supplied composition.
+   All product and studio text remains accessible HTML; brand image itself is unmodified. */
+.hero.hero-creative-approved{
+  width:100%;max-width:1672px;min-height:clamp(640px,56.3vw,941px);
+  padding:clamp(52px,5.2vw,87px) 5.5% 60px;
+  margin-inline:auto;display:block;position:relative;overflow:hidden;
+  background:#0c0c10;isolation:isolate;
+}
+.hero-creative-approved .hero-copy{
+  position:relative;z-index:2;width:54%;max-width:710px;padding:0;margin:0;
+}
+.hero-creative-approved .eyebrow{
+  font-size:clamp(11px,1.1vw,17px);font-weight:700;letter-spacing:2.1px;
+  line-height:1.65;color:#e8ff2b;margin:0 0 35px;
+}
+.hero-creative-approved h1{
+  font-size:clamp(45px,5.25vw,88px);line-height:1.065;letter-spacing:-.045em;
+  font-weight:700;margin:0 0 43px;white-space:nowrap;
+}
+.hero-creative-approved .lead{
+  color:#f2f0eb;font-size:clamp(17px,1.55vw,26px);line-height:1.56;
+  max-width:590px;margin:0;
+}
+.hero-creative-approved .hero-followup{
+  color:#f2f0eb;font-size:clamp(17px,1.55vw,26px);
+  line-height:1.55;margin:26px 0 0;
+}
+.hero-creative-approved .actions{
+  margin-top:51px;gap:24px;display:flex;align-items:center;flex-wrap:wrap;
+}
+.hero-creative-approved .button{
+  padding:22px 27px;min-height:70px;border-radius:13px;font-size:clamp(13px,1.06vw,18px);
+  gap:17px;white-space:nowrap;
+}
+.hero-creative-approved .button-outline{border-color:#686672;background:rgba(15,15,20,.68)}
+.hero-creative-approved .hero-aside{
+  font-family:var(--lc-font-mono),monospace;font-size:clamp(10px,.82vw,14px);
+  line-height:1.6;letter-spacing:2px;margin-top:64px;color:#a4a3ad;
+}
+.hero-creative-approved .creative-workspace{
+  position:absolute;z-index:0;top:0;right:0;bottom:0;
+  width:58.73%;height:100%;max-width:none;margin:0;
+  padding:0;aspect-ratio:auto;border:0;border-radius:0;
+  overflow:visible;box-shadow:none;background:transparent;pointer-events:none;
+}
+.hero-creative-approved .desk-illustration{
+  display:block;width:100%;height:100%;max-width:none;aspect-ratio:auto;
+  object-fit:contain;object-position:right center;border:0;border-radius:0;
+}
+@media(max-width:1300px) and (min-width:801px){
+  .hero.hero-creative-approved{padding-top:52px;min-height:690px}
+  .hero-creative-approved h1{margin-bottom:30px}
+  .hero-creative-approved .eyebrow{margin-bottom:23px}
+  .hero-creative-approved .actions{margin-top:32px;gap:12px}
+  .hero-creative-approved .button{padding:16px 18px;min-height:52px;font-size:13px}
+  .hero-creative-approved .hero-aside{margin-top:38px}
+  .hero-creative-approved .lead,.hero-creative-approved .hero-followup{font-size:clamp(15px,1.4vw,19px)}
+}
+@media(max-width:800px){
+  .hero.hero-creative-approved{
+    display:flex;flex-direction:column;min-height:0;overflow:hidden;
+    padding:51px 22px 22px;gap:30px;
+  }
+  .hero-creative-approved .hero-copy{width:100%;max-width:none}
+  .hero-creative-approved .eyebrow{font-size:11px;margin-bottom:22px}
+  .hero-creative-approved h1{font-size:clamp(39px,8vw,59px);white-space:normal;letter-spacing:-.05em;margin-bottom:25px}
+  .hero-creative-approved .lead,.hero-creative-approved .hero-followup{font-size:16px;line-height:1.7}
+  .hero-creative-approved .hero-followup{margin-top:12px}
+  .hero-creative-approved .actions{margin-top:25px;gap:10px}
+  .hero-creative-approved .button{font-size:13px;min-height:48px;padding:13px 16px}
+  .hero-creative-approved .hero-aside{margin-top:27px;font-size:10px;letter-spacing:1.2px}
+  .hero-creative-approved .creative-workspace{
+    position:relative;top:auto;right:auto;bottom:auto;
+    width:min(100%,580px);height:auto;aspect-ratio:982/941;
+    margin-inline:auto;align-self:center;
+  }
+  .hero-creative-approved .desk-illustration{
+    width:100%;height:auto;aspect-ratio:982/941;object-fit:contain;
+  }
+}
+@media(prefers-reduced-motion:reduce){.hero-creative-approved *{animation:none!important;transition:none!important}}
