@@ -219,3 +219,52 @@ html{scroll-behavior:smooth;background:var(--lc-void)}*{box-sizing:border-box}bo
   .hero-creative-approved .hero-copy .eyebrow{font-size:10px}
   .hero-creative-approved .actions .button{flex:1 1 175px}
 }
+
+
+/* 2026-11-02: Visual artwork belongs ONLY to the right of the hero.
+   Fade its left edge into the original #0c0c10 page background.
+   Text, buttons, and the official logo remain separate HTML/assets. */
+@media (min-width: 941px) {
+  .hero.hero-creative-approved {
+    background: #0c0c10;
+  }
+  .hero-creative-approved .creative-workspace {
+    position: absolute;
+    inset: 0 0 0 auto;
+    width: 66%;
+    height: 100%;
+    max-width: none;
+    overflow: hidden;
+    background: transparent;
+    pointer-events: none;
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0,0,0,.02) 6%,
+      rgba(0,0,0,.18) 15%,
+      rgba(0,0,0,.65) 27%,
+      #000 43%
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0,0,0,.02) 6%,
+      rgba(0,0,0,.18) 15%,
+      rgba(0,0,0,.65) 27%,
+      #000 43%
+    );
+  }
+  .hero-creative-approved .desk-illustration {
+    position: absolute;
+    inset: 0 0 auto auto;
+    display: block;
+    width: auto;
+    max-width: none;
+    height: 100%;
+    aspect-ratio: auto;
+    object-fit: contain;
+    object-position: right center;
+    border: 0;
+  }
+}
+/* Mobile retains the existing text-first stacked layout and uncropped artwork. */
