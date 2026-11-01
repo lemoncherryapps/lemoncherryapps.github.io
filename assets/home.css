@@ -105,3 +105,30 @@ html{scroll-behavior:smooth;background:var(--lc-void)}*{box-sizing:border-box}bo
   }
 }
 @media(prefers-reduced-motion:reduce){.hero-creative-approved *{animation:none!important;transition:none!important}}
+
+/* Exact approved 1672x941 reference as the desktop hero. */
+@media(min-width:801px){
+ .hero.hero-creative-approved{display:block;position:relative;width:100%;max-width:1672px;height:auto!important;min-height:0!important;aspect-ratio:1672/941;padding:0!important;margin:0 auto;overflow:hidden;background:#0c0c10}
+ .hero-creative-approved .creative-workspace{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;aspect-ratio:1672/941!important;margin:0!important;border:0!important;box-shadow:none!important;overflow:hidden!important;z-index:0}
+ .hero-creative-approved .desk-illustration{display:block;width:100%!important;height:100%!important;max-width:none!important;aspect-ratio:1672/941!important;object-fit:contain!important;object-position:center!important}
+ .hero-creative-approved .hero-copy{position:absolute!important;inset:0!important;width:100%!important;max-width:none!important;height:100%!important;z-index:3;pointer-events:none}
+ .hero-creative-approved .hero-copy>:not(.actions){position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:0!important;border:0!important;clip-path:inset(50%)!important;overflow:hidden!important;white-space:nowrap!important}
+ .hero-creative-approved .actions{display:contents!important}
+ .hero-creative-approved .actions .button{position:absolute!important;top:69.0%!important;height:8.2%!important;min-height:0!important;padding:0!important;margin:0!important;border:0!important;border-radius:10px!important;background:transparent!important;box-shadow:none!important;color:transparent!important;font-size:0!important;line-height:0!important;letter-spacing:0!important;pointer-events:auto;outline-offset:3px}
+ .hero-creative-approved .actions .button:first-child{left:5.5%!important;width:17.1%!important}
+ .hero-creative-approved .actions .button:last-child{left:24.0%!important;width:16.7%!important}
+ .hero-creative-approved .actions .button span{visibility:hidden}
+ .hero-creative-approved .actions .button:focus-visible{outline:3px solid #f4f2ea!important}
+}
+@media(max-width:800px){
+ .hero.hero-creative-approved{display:flex!important;flex-direction:column;aspect-ratio:auto!important;width:100%;max-width:100%;min-height:0!important;height:auto!important;padding:48px 20px 16px!important;gap:25px!important;overflow:hidden}
+ .hero-creative-approved .hero-copy{position:relative!important;inset:auto!important;width:100%!important;max-width:none!important;height:auto!important;pointer-events:auto;z-index:2}
+ .hero-creative-approved .hero-copy>:not(.actions){position:static!important;width:auto!important;height:auto!important;clip-path:none!important;overflow:visible!important;white-space:normal!important}
+ .hero-creative-approved .actions{display:flex!important;flex-wrap:wrap;gap:11px!important;margin-top:28px!important}
+ .hero-creative-approved .actions .button{position:static!important;top:auto!important;left:auto!important;width:auto!important;height:auto!important;min-height:48px!important;padding:13px 17px!important;font-size:13px!important;line-height:1.5!important;letter-spacing:normal!important;pointer-events:auto}
+ .hero-creative-approved .actions .button-acid{background:#e8ff2b!important;color:#0c0c10!important;border:0!important}
+ .hero-creative-approved .actions .button-outline{background:#16161c!important;color:#f4f2ea!important;border:1px solid #555560!important}
+ .hero-creative-approved .actions .button span{visibility:visible}
+ .hero-creative-approved .creative-workspace{position:relative!important;inset:auto!important;align-self:center;width:min(100%,550px)!important;height:auto!important;max-width:none!important;aspect-ratio:1!important;overflow:hidden!important;margin:0 auto!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:#0c0c10}
+ .hero-creative-approved .desk-illustration{position:absolute!important;top:0!important;right:0!important;left:auto!important;bottom:auto!important;display:block!important;width:auto!important;height:100%!important;max-width:none!important;aspect-ratio:1672/941!important;object-fit:contain!important;object-position:right center!important}
+}
