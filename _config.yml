@@ -2,3 +2,5 @@ title: LemonCherry Apps
 description: Utilities to games. Mind-boggling by design.
 url: https://lemoncherrylabs.com
 include: [app-ads.txt]
+plugins:
+  - jekyll-redirect-from

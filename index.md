@@ -23,7 +23,7 @@ flagged and what this phone could not check.</p>
 <h2>Hook Dash</h2>
 <p>A one-finger jungle runner: hold to hook a vine, release to fly. Swing as
 Momo the golden monkey, chain catches for combos and unlock new simians.</p>
-<p><a class="btn" href="/hook-dash/privacy/">Privacy policy</a></p>
+<p><a class="btn" href="/games/privacy/">Privacy policy</a></p>
 <p class="muted">Support: <a href="mailto:support@lemoncherrylabs.com">support@lemoncherrylabs.com</a></p>
 </div>
 
@@ -32,6 +32,6 @@ Momo the golden monkey, chain catches for combos and unlock new simians.</p>
 <h2>Kitty Pounce</h2>
 <p>Hold to charge, release to pounce! Hop a cat across sunset rooftops, catch
 butterflies and unlock new cats.</p>
-<p><a class="btn" href="/kitty-pounce/privacy/">Privacy policy</a></p>
+<p><a class="btn" href="/games/privacy/">Privacy policy</a></p>
 <p class="muted">Support: <a href="mailto:support@lemoncherrylabs.com">support@lemoncherrylabs.com</a></p>
 </div>
