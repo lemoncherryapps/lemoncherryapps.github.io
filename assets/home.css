@@ -275,3 +275,11 @@ html{scroll-behavior:smooth;background:var(--lc-void)}*{box-sizing:border-box}bo
 .mint{color:#8af0df}
 /* Three game cards side by side on wide screens; two-up, then one-up below. */
 @media(min-width:1000px){.games-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.games-grid .game-type-logo{font-size:clamp(60px,6vw,92px)}}
+/* Game cards show each game's official Play Store feature graphic (1024x500),
+   uncropped, with the status chip over it and the motto line in a strip beneath. */
+.game-art{display:block;height:auto;padding:0;background:#101016}
+.game-art-img{display:block;width:100%;height:auto;aspect-ratio:1024/500;object-fit:cover}
+.game-art .game-art-top{position:absolute;top:10px;right:10px;z-index:1}
+.game-art .game-art-top>span:first-child{display:none}
+.game-art .status{background:#0c0c10cc;border-color:#ffffff59;padding:6px 8px}
+.game-art .game-art-bottom{display:block;padding:11px 18px;border-bottom:1px solid #373740;color:#a9a9b4}
