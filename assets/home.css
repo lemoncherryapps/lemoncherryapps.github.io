@@ -268,3 +268,10 @@ html{scroll-behavior:smooth;background:var(--lc-void)}*{box-sizing:border-box}bo
   }
 }
 /* Mobile retains the existing text-first stacked layout and uncropped artwork. */
+
+/* Little Dread card: its own night-attic palette (#10101E, #211A33, glow mint #8AF0DF). */
+.game-art.dread{background:radial-gradient(ellipse at 55% 42%,#3a2a4a,#10101e 70%)}
+.dread .game-type-logo{color:#8af0df;transform:rotate(-4deg)}
+.mint{color:#8af0df}
+/* Three game cards side by side on wide screens; two-up, then one-up below. */
+@media(min-width:1000px){.games-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.games-grid .game-type-logo{font-size:clamp(60px,6vw,92px)}}
