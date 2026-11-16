@@ -289,3 +289,6 @@ html{scroll-behavior:smooth;background:var(--lc-void)}*{box-sizing:border-box}bo
 .game-identity .game-meta{margin:0 0 6px}
 .game-identity h3{margin:0}
 @media(min-width:1000px){.games-grid .game-identity{gap:12px}.games-grid .game-icon{width:56px;height:56px;border-radius:13px}.games-grid .game-identity h3{font-size:clamp(22px,2.3vw,30px);white-space:nowrap}}
+/* Released games: a filled status chip and a Google Play button, like Sweep's. */
+.game-art .status-live{background:var(--lc-neon-cherry);border-color:var(--lc-neon-cherry);color:var(--lc-void);font-weight:700}
+.game-play{width:100%;margin-top:6px}
